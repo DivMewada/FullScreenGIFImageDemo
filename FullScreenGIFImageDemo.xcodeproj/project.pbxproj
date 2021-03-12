@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,10 @@
 		6A45582825FA272200109943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A45582625FA272200109943 /* LaunchScreen.storyboard */; };
 		6A45583325FA272200109943 /* FullScreenGIFImageDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A45583225FA272200109943 /* FullScreenGIFImageDemoTests.swift */; };
 		6A45583E25FA272200109943 /* FullScreenGIFImageDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A45583D25FA272200109943 /* FullScreenGIFImageDemoUITests.swift */; };
+		6A45587425FA29E100109943 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 6A45587325FA29E100109943 /* SwiftPackageProductDependency */; };
+		992188773B12A0FE7A0370C0 /* Pods_FullScreenGIFImageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1364AA4B8CF01C7575C6EACB /* Pods_FullScreenGIFImageDemo.framework */; };
+		A0246D86B117213B26E1B1D8 /* Pods_FullScreenGIFImageDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693CDD5684E5AE9F6789C518 /* Pods_FullScreenGIFImageDemoTests.framework */; };
+		B3717DB29E992BAC191131EB /* Pods_FullScreenGIFImageDemo_FullScreenGIFImageDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40A74F642402E64B5AB41840 /* Pods_FullScreenGIFImageDemo_FullScreenGIFImageDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0502CAF15886D8137F0B88CB /* Pods-FullScreenGIFImageDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullScreenGIFImageDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-FullScreenGIFImageDemoTests/Pods-FullScreenGIFImageDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		09F53F0A2D4F4D4EA1C304E6 /* Pods-FullScreenGIFImageDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullScreenGIFImageDemoTests.release.xcconfig"; path = "Target Support Files/Pods-FullScreenGIFImageDemoTests/Pods-FullScreenGIFImageDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1364AA4B8CF01C7575C6EACB /* Pods_FullScreenGIFImageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FullScreenGIFImageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A74F642402E64B5AB41840 /* Pods_FullScreenGIFImageDemo_FullScreenGIFImageDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FullScreenGIFImageDemo_FullScreenGIFImageDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		598A798EE2687E9372068C7B /* Pods-FullScreenGIFImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullScreenGIFImageDemo.debug.xcconfig"; path = "Target Support Files/Pods-FullScreenGIFImageDemo/Pods-FullScreenGIFImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		693CDD5684E5AE9F6789C518 /* Pods_FullScreenGIFImageDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FullScreenGIFImageDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A45581825FA272100109943 /* FullScreenGIFImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullScreenGIFImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A45581B25FA272100109943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A45581D25FA272100109943 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,9 @@
 		6A45583925FA272200109943 /* FullScreenGIFImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullScreenGIFImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A45583D25FA272200109943 /* FullScreenGIFImageDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenGIFImageDemoUITests.swift; sourceTree = "<group>"; };
 		6A45583F25FA272200109943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E5125E87483919BEF77B3D /* Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests/Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		932FB34300DC91F33D226CB6 /* Pods-FullScreenGIFImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullScreenGIFImageDemo.release.xcconfig"; path = "Target Support Files/Pods-FullScreenGIFImageDemo/Pods-FullScreenGIFImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BC42A4A8137259437EFFFAD5 /* Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests/Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A45587425FA29E100109943 /* BuildFile in Frameworks */,
+				992188773B12A0FE7A0370C0 /* Pods_FullScreenGIFImageDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0246D86B117213B26E1B1D8 /* Pods_FullScreenGIFImageDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3717DB29E992BAC191131EB /* Pods_FullScreenGIFImageDemo_FullScreenGIFImageDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52192D7CAD3DABF6951C3A50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				598A798EE2687E9372068C7B /* Pods-FullScreenGIFImageDemo.debug.xcconfig */,
+				932FB34300DC91F33D226CB6 /* Pods-FullScreenGIFImageDemo.release.xcconfig */,
+				82E5125E87483919BEF77B3D /* Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests.debug.xcconfig */,
+				BC42A4A8137259437EFFFAD5 /* Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests.release.xcconfig */,
+				0502CAF15886D8137F0B88CB /* Pods-FullScreenGIFImageDemoTests.debug.xcconfig */,
+				09F53F0A2D4F4D4EA1C304E6 /* Pods-FullScreenGIFImageDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5813E63115D0913A12251F17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1364AA4B8CF01C7575C6EACB /* Pods_FullScreenGIFImageDemo.framework */,
+				40A74F642402E64B5AB41840 /* Pods_FullScreenGIFImageDemo_FullScreenGIFImageDemoUITests.framework */,
+				693CDD5684E5AE9F6789C518 /* Pods_FullScreenGIFImageDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A45580F25FA272000109943 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				6A45583125FA272200109943 /* FullScreenGIFImageDemoTests */,
 				6A45583C25FA272200109943 /* FullScreenGIFImageDemoUITests */,
 				6A45581925FA272100109943 /* Products */,
+				52192D7CAD3DABF6951C3A50 /* Pods */,
+				5813E63115D0913A12251F17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,15 +177,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A45584225FA272200109943 /* Build configuration list for PBXNativeTarget "FullScreenGIFImageDemo" */;
 			buildPhases = (
+				00251EE9A4D96269C60700A5 /* [CP] Check Pods Manifest.lock */,
 				6A45581425FA272100109943 /* Sources */,
 				6A45581525FA272100109943 /* Frameworks */,
 				6A45581625FA272100109943 /* Resources */,
+				789315E247961A0D68A46A98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FullScreenGIFImageDemo;
+			packageProductDependencies = (
+				6A45587325FA29E100109943 /* SwiftPackageProductDependency */,
+			);
 			productName = FullScreenGIFImageDemo;
 			productReference = 6A45581825FA272100109943 /* FullScreenGIFImageDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A45584525FA272200109943 /* Build configuration list for PBXNativeTarget "FullScreenGIFImageDemoTests" */;
 			buildPhases = (
+				987D238D069F73FA509FF0B8 /* [CP] Check Pods Manifest.lock */,
 				6A45582A25FA272200109943 /* Sources */,
 				6A45582B25FA272200109943 /* Frameworks */,
 				6A45582C25FA272200109943 /* Resources */,
@@ -170,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A45584825FA272200109943 /* Build configuration list for PBXNativeTarget "FullScreenGIFImageDemoUITests" */;
 			buildPhases = (
+				66C64509E10055DD40D6A2E6 /* [CP] Check Pods Manifest.lock */,
 				6A45583525FA272200109943 /* Sources */,
 				6A45583625FA272200109943 /* Frameworks */,
 				6A45583725FA272200109943 /* Resources */,
+				3478827612AB3E378D84A051 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +265,9 @@
 				Base,
 			);
 			mainGroup = 6A45580F25FA272000109943;
+			packageReferences = (
+				6A45587225FA29E100109943 /* RemoteSwiftPackageReference */,
+			);
 			productRefGroup = 6A45581925FA272100109943 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00251EE9A4D96269C60700A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FullScreenGIFImageDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3478827612AB3E378D84A051 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests/Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests/Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests/Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66C64509E10055DD40D6A2E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		789315E247961A0D68A46A98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FullScreenGIFImageDemo/Pods-FullScreenGIFImageDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FullScreenGIFImageDemo/Pods-FullScreenGIFImageDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FullScreenGIFImageDemo/Pods-FullScreenGIFImageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		987D238D069F73FA509FF0B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FullScreenGIFImageDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A45581425FA272100109943 /* Sources */ = {
@@ -433,12 +589,15 @@
 		};
 		6A45584325FA272200109943 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598A798EE2687E9372068C7B /* Pods-FullScreenGIFImageDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E737MQJQ7Z;
 				INFOPLIST_FILE = FullScreenGIFImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +611,15 @@
 		};
 		6A45584425FA272200109943 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932FB34300DC91F33D226CB6 /* Pods-FullScreenGIFImageDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E737MQJQ7Z;
 				INFOPLIST_FILE = FullScreenGIFImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,8 +633,9 @@
 		};
 		6A45584625FA272200109943 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0502CAF15886D8137F0B88CB /* Pods-FullScreenGIFImageDemoTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E737MQJQ7Z;
@@ -493,8 +656,9 @@
 		};
 		6A45584725FA272200109943 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F53F0A2D4F4D4EA1C304E6 /* Pods-FullScreenGIFImageDemoTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E737MQJQ7Z;
@@ -515,8 +679,9 @@
 		};
 		6A45584925FA272200109943 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E5125E87483919BEF77B3D /* Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E737MQJQ7Z;
 				INFOPLIST_FILE = FullScreenGIFImageDemoUITests/Info.plist;
@@ -535,8 +700,9 @@
 		};
 		6A45584A25FA272200109943 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC42A4A8137259437EFFFAD5 /* Pods-FullScreenGIFImageDemo-FullScreenGIFImageDemoUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E737MQJQ7Z;
 				INFOPLIST_FILE = FullScreenGIFImageDemoUITests/Info.plist;
@@ -593,6 +759,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6A45587225FA29E100109943 /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6A45587325FA29E100109943 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A45587225FA29E100109943 /* RemoteSwiftPackageReference */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6A45581025FA272000109943 /* Project object */;
 }

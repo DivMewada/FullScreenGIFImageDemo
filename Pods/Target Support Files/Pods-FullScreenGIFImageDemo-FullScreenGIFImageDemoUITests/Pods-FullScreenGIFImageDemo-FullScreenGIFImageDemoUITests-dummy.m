@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_FullScreenGIFImageDemo_FullScreenGIFImageDemoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_FullScreenGIFImageDemo_FullScreenGIFImageDemoUITests
+@end

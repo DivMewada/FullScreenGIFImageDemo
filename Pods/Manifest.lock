@@ -1,0 +1,25 @@
+PODS:
+  - Lightbox (2.5.2):
+    - SDWebImage (~> 5.10.4)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+
+DEPENDENCIES:
+  - Lightbox (from `https://raw.githubusercontent.com/DivMewada/Lightbox/master/Lightbox.podspec`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  Lightbox:
+    :podspec: https://raw.githubusercontent.com/DivMewada/Lightbox/master/Lightbox.podspec
+
+SPEC CHECKSUMS:
+  Lightbox: 48d21a131c32449686e9e3499f0dcdcc343469f4
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+
+PODFILE CHECKSUM: 2d3cb663b0bc740af49d3b1ef6b12310710cab3f
+
+COCOAPODS: 1.10.0
